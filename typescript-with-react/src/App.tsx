@@ -98,9 +98,7 @@ function App() {
       <TextWithNumber header={(num: number) => <span>Header ({num})</span>}>
         {(num: number) => <div>Today's number is {num}</div>}
       </TextWithNumber>
-      <List items={['Jack', 'Sadie', "Vera"]} render={(item: string) => <div>{item.toLowerCase()}</div>}>
-
-      </List>
+      <List items={['Jack', 'Sadie', "Vera"]} render={(item: string) => <div>{item.toLowerCase()}</div>} />
     </div>
   )
 }

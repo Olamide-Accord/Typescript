@@ -81,13 +81,6 @@ function List<ListItem>({
 }
 
 
-// class component
-class MyHeader extends React.Component<{
-  header: ReactNode,
-}>{
-  
-}
-
 function App() {
   return (
     <div className='App'>
